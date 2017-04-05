@@ -7,6 +7,7 @@
 [Here's the project on the HTML5 Outliner.]()
 
 ## Resources
+To create the map, I followed [this Google Maps APIs tutorial.](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
 []()
 
 ## Deductions
