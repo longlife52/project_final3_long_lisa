@@ -19,6 +19,18 @@ html {
 
 * html .group
 
+/* Body */
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    background: #fafafa;
+    margin: auto;
+    margin-top: 1em;
+    max-width: 950px;
+}
+
 /* Headings Styles */
 h1,
 h2,
