@@ -9,6 +9,7 @@ html {
 }
 
 /* Clear Fix */
+
 /* add the class .group in html to floated elements */
 .group::after {
     content: '';
@@ -17,3 +18,83 @@ html {
 }
 
 * html .group
+
+/* Headings Styles */
+h1,
+h2,
+h3,
+p {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #565656;
+}
+
+h4 {
+    font-family: bickham-script-pro-3, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fafafa;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+/* Header and Logo */
+#topheader {
+    background-color: #565656;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    padding-top: 0.5em;
+}
+
+@media (min-width: 450px) {
+    #logo {
+        float: left;
+        width: calc(100% / 3);
+        position: absolute;
+        margin-top: -5em;
+    }
+
+    #topheader h1 {
+        text-align: left;
+        padding-left: 5em;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        margin: auto;
+    }
+
+    #topheader {
+        background: rgba(86, 86, 86, 0.5);
+    }
+    #topheader h1 {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+}
