@@ -251,6 +251,8 @@ h3 {
 }
 
 /* button area styles */
+
+/*
 .button-pix {
     background-image: url(../img/wood.png);
 }
@@ -264,8 +266,7 @@ h3 {
     color: #fafafa;
     font-size: 2em;
 }
-
-
+*/
 
 @media (min-width: 850px) {
     #intro h3 {
