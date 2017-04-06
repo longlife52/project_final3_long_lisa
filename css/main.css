@@ -248,12 +248,10 @@ h3 {
     #title {
         margin-top: 7em;
     }
-
-
 }
 
 /* button area styles */
-.wood {
+.button-pix {
     background-image: url(../img/wood.png);
 }
 
@@ -261,7 +259,7 @@ h3 {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.wood p {
+.button-pix p {
     padding: 2em 0 2em 1em;
     color: #fafafa;
     font-size: 2em;
@@ -274,7 +272,7 @@ h3 {
         margin-bottom: 2em;
     }
 
-    .wood {
+    .button-pix {
         float: right;
         width: 50%;
     }
