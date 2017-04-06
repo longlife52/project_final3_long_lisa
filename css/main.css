@@ -101,12 +101,12 @@ h5 {
 
 #hamburger {
     float: left;
-    width: 50%;
+    width: calc(100% / 3);
 }
 
 #topheader {
     float: right;
-    width: 50%;
+    width: calc((100% / 3) * 2);
 }
 
 
