@@ -21,7 +21,7 @@ html {
 
 /* Body */
 body {
-    background-color: #fafafa;
+    background: red;
 }
 
 .container {
@@ -169,7 +169,7 @@ h3 {
     background: rgba(0, 0, 0, 0.5);
 }
 
-#intro p {
+.wood p {
     padding: 2em 0 2em 1em;
     color: #fafafa;
     font-size: 2em;
