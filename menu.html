@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/glogo.png" type="image/png"/>
-    <title>Gusteau's | Rustic French Dining</title>
-    <meta name="description" content="Savory food freshly prepared in the Heart of Paris">
+    <title>Gusteau's | Menu</title>
+    <meta name="description" content="Menu of Gusteau's savory food freshly prepared in the Heart of Paris">
     <!-- script below for typekit fonts: proxima-nova-condensed adn bickham-script-pro-3 -->
     <script src="https://use.typekit.net/sro7jut.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <!--This is for the sliding mmenu-->
+    <!--this is for the sliding mmenu-->
     <link href="css/jquery.mmenu.all.css" rel="stylesheet"/>
+    <!-- this is for strip jquery plug in-->
+    <link rel="stylesheet" href="css/strip.css"/>
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -42,7 +44,12 @@
         </header>
 
         <main>
-
+            <a href="http://www.youtube.com/watch?v=5XD2kNopsUs"
+            class="strip"
+            data-strip-options="
+            width: 853,
+            height: 480,
+            youtube: { autoplay: 0 }">Youtube - Dimensions and options</a>
         </main>
 
         <footer>
@@ -79,6 +86,7 @@
     </div>
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 
+    <script src="js/strip.pkgd.min.js"></script>
     <script src="js/jquery.mmenu.min.js"></script>
 
     <script src="js/main.js"></script>
