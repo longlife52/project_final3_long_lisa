@@ -19,9 +19,13 @@ html {
 
 * html .group
 
-/* Body */
+/* Body - in order to change body color must have body + #wrapper set to same color; do not add any css values to #wrapper that change its size or position or mmneu will not work */
 body {
-    background: red;
+    background: #fafafa;
+}
+
+#wrapper {
+    background: #fafafa;
 }
 
 .container {
