@@ -11,6 +11,8 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <!--This is for the sliding mmenu-->
     <link href="css/jquery.mmenu.all.css" rel="stylesheet"/>
+    <!--for animating hamburger menu -->
+    <link href="css/hamburgers.min.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -31,8 +33,16 @@
                 </li>
             </ul>
         </nav>
-
-            <button id="menu-button">Menu</button>
+<!--
+            <button id="menu-button"><img src="img/menu.png"></button>
+-->
+        <div class="fixed">
+            <button id="menu-button" class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
 
         <header>
             <div id="topheader">
@@ -52,8 +62,7 @@
                     </div>
                 </section>
 
-                <div id="navigation" class="group border">
-                    <nav>
+                <div id="action-buttons" class="group border">
                         <h3>Join us for dinner.</h3>
                         <ul class="buttonbox">
                             <li>
@@ -66,7 +75,6 @@
                                 <a href="" target="blank">Menu</a>
                             </li>
                         </ul>
-                    </nav>
                 </div>
 
                 <section id="food">
