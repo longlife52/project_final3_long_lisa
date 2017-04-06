@@ -202,7 +202,7 @@ h5 {
 }
 
 #logo img {
-    padding-top: 6em;
+    padding-top: 7em;
 }
 
 #intro h2 {
@@ -219,6 +219,40 @@ h3 {
     text-align: center;
 }
 
+@media (min-width: 450px) {
+
+    /*
+    #intro h2 {
+        padding-top: 1em;
+    }
+    */
+    #logo {
+        float: left;
+        width: 50%;
+    }
+
+    #title {
+        float: right;
+        width: 50%;
+    }
+
+    #logo {
+        text-align: right;
+    }
+
+    #title h2,
+    #title h3 {
+        text-align: left;
+    }
+
+    #title {
+        margin-top: 7em;
+    }
+
+
+}
+
+/* button area styles */
 .wood {
     background-image: url(../img/wood.png);
 }
@@ -233,11 +267,7 @@ h3 {
     font-size: 2em;
 }
 
-@media (min-width: 450px) {
-    #intro h2 {
-        padding-top: 1em;
-    }
-}
+
 
 @media (min-width: 850px) {
     #intro h3 {
