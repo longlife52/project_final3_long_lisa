@@ -11,6 +11,8 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <!--this is for the sliding mmenu-->
     <link href="css/jquery.mmenu.all.css" rel="stylesheet"/>
+    <!--for animating hamburger menu -->
+    <link href="css/hamburgers.min.css" rel="stylesheet"/>
     <!-- this is for strip jquery plug in-->
     <link rel="stylesheet" href="css/strip.css"/>
 
@@ -32,7 +34,13 @@
             </ul>
         </nav>
 
-            <button id="menu-button">Menu</button>
+            <div class="fixed">
+                <button id="menu-button" class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
 
         <header>
             <div id="topheader">
@@ -44,6 +52,7 @@
         </header>
 
         <main>
+            <!-- this is a demo for strip for restaurant video -->
             <a href="http://www.youtube.com/watch?v=5XD2kNopsUs"
             class="strip"
             data-strip-options="
