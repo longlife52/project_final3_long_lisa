@@ -68,6 +68,16 @@ h5 {
     font-size: 1.5em;
 }
 
+/* classes for easier styling; NEW for me to do this! */
+.center-text {
+    text-align: center;
+}
+
+/* for html outliner for nav */
+.hide {
+    display: none;
+}
+
 /* Header and Logo */
 #topheader {
     background-color: #565656;

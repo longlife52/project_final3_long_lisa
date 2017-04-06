@@ -11,11 +11,6 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <!--This is for the sliding mmenu-->
     <link href="css/jquery.mmenu.all.css" rel="stylesheet"/>
-    <!--for animating hamburger menu -->
-    <link href="css/hamburgers.min.css" rel="stylesheet"/>
-    <!--below is for owl.carousel.js-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -24,9 +19,7 @@
     <!--div "wrapper" needed to contain all html for jquery plugin mmenu. do not add any css values to change its size or position. -->
     <div id="wrapper">
         <nav id="menu">
-<!--
-            <h2>Navigation</h2>
--->
+        <h2 class="hide">Navigation</h2>
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -36,16 +29,8 @@
                 </li>
             </ul>
         </nav>
-<!--
-            <button id="menu-button"><img src="img/menu.png"></button>
--->
-        <div class="fixed">
-            <button id="menu-button" class="hamburger hamburger--collapse" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-        </div>
+
+            <button id="menu-button">Menu</button>
 
         <header>
             <div id="topheader">
@@ -57,65 +42,6 @@
         </header>
 
         <main>
-            <section id="intro">
-                    <h2>Savory Dining</h2>
-                    <h3>in the heart of Paris</h3>
-                    <div class="wood">
-                        <p class="whitebox"> Delight in an innovative taste exploration of old-world recipes.</p>
-                    </div>
-                </section>
-
-                <div id="action-buttons" class="group border">
-                        <h3>Join us for dinner.</h3>
-                        <ul class="buttonbox">
-                            <li>
-                                <a href="" target="blank">Reserve</a>
-                            </li>
-                            <li>
-                                <a href="" target="blank">Location</a>
-                            </li>
-                            <li id="menuspace">
-                                <a href="" target="blank">Menu</a>
-                            </li>
-                        </ul>
-                </div>
-
-                <section id="food">
-                    <h3>Delectable and Fresh.</h3>
-                    <p>Expanding on Chef Auguste Gusteau's treasured family recipes, we infuse fresh, locally sourced ingredients with fragrant spices.
-                        <a href= "" target="blank"> Reserve your experience.
-                        </a>
-                    </p>
-
-                    <div class="group image-box">
-                        <div class="group box-one">
-                            <img src="img/baked.png" alt="Gustea's baked ratatouille." title="Gustea's baked ratatouille."/>
-                        </div>
-
-                        <div class="group box-two">
-                            <img src="img/skillet.png" alt="Gustea's skillet baked with fresh ingredients." title="Skillet baked with fresh ingredients."/>
-                        </div>
-
-                        <div class="box-three">
-                            <img src="img/freshcutboardlogo.png" alt="Gustea's fresh ingredients." title="Gustea's fresh ingredients."/>
-                        </div>
-
-                        <div id="image-carousel" class="owl-carousel owl-theme group container">
-                            <div>
-                                <img src="img/skillet.png" title="" alt="">
-                            </div>
-                            <div>
-                                <img src="img/baked.png" title="" alt="">
-                            </div>
-                            <div>
-                                <img src="img/wood.png" title="" alt="">
-                            </div>
-                            <div>
-                                <img src="img/freshcutboardlogo.png" title="" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
         </main>
 
@@ -145,12 +71,15 @@
                     <img src="img/facebook.png" title="Facebook logo" alt="Facebook logo">
                 </a>
             </div>
+
+            <div id="copyright">
+                <p class="center-text">&copy; 2017 Gusteau's</p>
+            </div>
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script src="js/jquery.mmenu.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
 
     <script src="js/main.js"></script>
 </body>
