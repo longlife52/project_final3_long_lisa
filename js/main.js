@@ -1,6 +1,9 @@
-$(document).ready(function (){
+$(document).ready(function () {
+    $('#menu').mmenu();
 
-//drawer - hamburger menu jquery plugin
-    $('.drawer').drawer();
+    // configuration
+    offCanvas: {
+        pageSelector: '#wrapper'
+        }
 
 });
