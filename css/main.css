@@ -36,9 +36,15 @@ body {
 }
 
 .fixed {
+
+    /*
     background: #c09f80;
+    */
     position: fixed;
+
+    /*
     width: 100%;
+    */
 }
 
 /* Headings Styles */
@@ -91,6 +97,16 @@ h5 {
 /* Header and Logo */
 #topheader h1 {
     color: green;
+}
+
+#hamburger {
+    float: left;
+    width: 50%;
+}
+
+#topheader {
+    float: right;
+    width: 50%;
 }
 
 
