@@ -11,6 +11,11 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <!--This is for the sliding mmenu-->
     <link href="css/jquery.mmenu.all.css" rel="stylesheet"/>
+    <!--for animating hamburger menu -->
+    <link href="css/hamburgers.min.css" rel="stylesheet"/>
+    <!--below is for owl.carousel.js-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -31,8 +36,16 @@
                 </li>
             </ul>
         </nav>
-
-            <button id="menu-button">Menu</button>
+<!--
+            <button id="menu-button"><img src="img/menu.png"></button>
+-->
+        <div class="fixed">
+            <button id="menu-button" class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
 
         <header>
             <div id="topheader">
@@ -52,8 +65,7 @@
                     </div>
                 </section>
 
-                <div id="navigation" class="group border">
-                    <nav>
+                <div id="action-buttons" class="group border">
                         <h3>Join us for dinner.</h3>
                         <ul class="buttonbox">
                             <li>
@@ -66,7 +78,6 @@
                                 <a href="" target="blank">Menu</a>
                             </li>
                         </ul>
-                    </nav>
                 </div>
 
                 <section id="food">
@@ -87,6 +98,21 @@
 
                         <div class="box-three">
                             <img src="img/freshcutboardlogo.png" alt="Gustea's fresh ingredients." title="Gustea's fresh ingredients."/>
+                        </div>
+
+                        <div id="image-carousel" class="owl-carousel owl-theme group container">
+                            <div>
+                                <img src="img/skillet.png" title="" alt="">
+                            </div>
+                            <div>
+                                <img src="img/baked.png" title="" alt="">
+                            </div>
+                            <div>
+                                <img src="img/wood.png" title="" alt="">
+                            </div>
+                            <div>
+                                <img src="img/freshcutboardlogo.png" title="" alt="">
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -124,6 +150,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script src="js/jquery.mmenu.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
     <script src="js/main.js"></script>
 </body>
