@@ -26,6 +26,7 @@ $(document).ready(function () {
             }
         }
     });
+
     var menuButton = $('#menu-button');
     var mainMenu = $('#menu').data('mmenu');
 
@@ -48,6 +49,9 @@ $(document).ready(function () {
             menuButton.removeClass('is-active');
         }, 100);
     });
+
+    //owlcarousel
+    $('.owl-carousel').owlCarousel();
 
 
 });
