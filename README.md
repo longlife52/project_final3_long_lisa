@@ -15,7 +15,7 @@ I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/cor
 
 [Animated hamburger options.](https://github.com/jonsuh/hamburgers)
 
-This is the jQuery plugin [called Strip](http://www.stripjs.com/)for the video on the menu page.
+This is the jQuery plugin [called Strip](http://www.stripjs.com/)for the video on the menu page. Fairly straightforward to install once I spotted in dev tools how to add the image file for the close buttons. In the error message, the path it was looking for was spelled out!  I just created the path it wanted. css>strip-skins>strip>close.svg.
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
