@@ -11,7 +11,11 @@ To create the map, I attempted to follow [this Google Maps APIs tutorial.](https
 
 I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/core/) to create the hamburger menu.
 
-[]()
+[Info for animating hamburger icon in mmenu](http://mmenu.frebsite.nl/tutorials/animated-hamburger.html)
+
+[Animated hamburger options.](https://github.com/jonsuh/hamburgers)
+
+This is the jQuery plugin [called Strip](http://www.stripjs.com/)for the video on the menu page.
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
