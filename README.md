@@ -9,7 +9,7 @@
 ## Resources
 To create the map, I attempted to follow [this Google Maps APIs tutorial.](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) After several glitches, I then opted for an iframe version.
 
-I used a jQuery plugin[called Drawer](http://git.blivesta.com/drawer/)to create the hamburger menu.
+I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/core/) to create the hamburger menu.
 
 []()
 
