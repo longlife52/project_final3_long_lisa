@@ -53,6 +53,11 @@ $(document).ready(function () {
         }, 100);
     });
 
+    //lazy load
+    $('img.lazy').lazyload({
+        effect: 'fadeIn'
+    });
+
     //owlcarousel
     $('.owl-carousel').owlCarousel();
 
