@@ -469,6 +469,14 @@ li {
     width: 100%;
 }
 
+
+@media (min-width: 450px) {
+    #social h5 {
+        padding-top: 0.625em;
+    }
+}
+
+
 #copyright p {
     font-size: 0.5em;
     padding: 3em 0 2em 0;
