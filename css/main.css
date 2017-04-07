@@ -425,3 +425,23 @@ li {
 }
 
 /* footer styles */
+#fat-footer {
+    background: #565656;
+    padding: 3em 0 2em 0;
+}
+
+#fat-footer p {
+    color: #fafafa;
+    padding-left: 0.5em;
+    font-size: 1.5em;
+}
+
+#fat-footer h5 {
+    color: #fafafa;
+    padding-left: 0.5em;
+    font-size: 2em;
+}
+
+#map iframe {
+    width: 100%;
+}
