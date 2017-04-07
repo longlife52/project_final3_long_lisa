@@ -24,9 +24,16 @@ html {
 body {
     background: #fafafa;
 }
-*/
+
 #wrapper {
     background: #fafafa;
+}
+*/
+
+@media (min-width: 450px) {
+    #wrapper {
+        background: rgba(250, 250, 250 0.2);
+    }
 }
 
 .container {
@@ -213,6 +220,7 @@ h5 {
 #intro h3 {
     color: #c09f80;
     margin-top: -1em;
+    padding-bottom: 2em;
 }
 
 #intro h2,
@@ -307,7 +315,7 @@ h3 {
     }
 
     #food h3 {
-        margin-top: 3em;
+        marign-top: 3em;
     }
 }
 
@@ -398,8 +406,12 @@ li {
 }
 
 @media (min-width: 450px) {
+    #food {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
     #food h3 {
-        padding-top: 0;
+        padding-top: 1.5em;
     }
 
     .box-one {
@@ -469,7 +481,6 @@ li {
 #map iframe {
     width: 100%;
 }
-
 
 @media (min-width: 450px) {
     #social h5 {
