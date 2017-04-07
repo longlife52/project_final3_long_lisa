@@ -427,7 +427,7 @@ li {
     }
 }
 
-@media (min-width: 950px){
+@media (min-width: 950px) {
     #food h3 {
         margin-top: 0;
     }
@@ -445,7 +445,7 @@ li {
 
 /* footer styles */
 #fat-footer {
-    background: #565656;
+    background-color: #565656;
     padding: 2em 0 2em 0;
 }
 
@@ -488,14 +488,19 @@ li {
     width: 100%;
 }
 
+#copyright p {
+    font-size: 0.5em;
+    padding: 3em 0 2em 0;
+}
+
 @media (min-width: 450px) {
     #social h5 {
         padding-top: 0.625em;
     }
 }
 
-
-#copyright p {
-    font-size: 0.5em;
-    padding: 3em 0 2em 0;
+@media (min-width: 800px) {
+    #fat-footer {
+        background-color: rgba(86, 86, 86, 0.8);
+    }
 }
