@@ -17,6 +17,8 @@ I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/cor
 
 This is the jQuery plugin [called Strip](http://www.stripjs.com/)for the video on the menu page. Fairly straightforward to install once I spotted in dev tools how to add the image file for the close buttons. In the error message, the path it was looking for was spelled out!  I just created the path it wanted. css>strip-skins>strip>close.svg.
 
+Took me a while to get the jQuery plugin  [Backstretch](http://www.jquery-backstretch.com/) to work. My issue was with a background/background-color on the body. Once I removed it in CSS, I was golden.
+
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
 
