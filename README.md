@@ -19,6 +19,8 @@ This is the jQuery plugin [called Strip](http://www.stripjs.com/)for the video o
 
 Took me a while to get the jQuery plugin  [Backstretch](http://www.jquery-backstretch.com/) to work. My issue was with a background/background-color on the body. Once I removed it in CSS, I was golden.
 
+Hooray! I used Bower for the first time to download + install a jQuery plugin called [Lazy Load](http://www.appelsiini.net/projects/lazyload) which was super easy to get up and running.
+
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
 
