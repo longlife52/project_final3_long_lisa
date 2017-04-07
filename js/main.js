@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    //backstretch
+    $.backstretch('img/wood.png');
+
     //mmenu - plugin for hamburger menu
     $('#menu').mmenu({
         // options
@@ -52,9 +55,6 @@ $(document).ready(function () {
 
     //owlcarousel
     $('.owl-carousel').owlCarousel();
-
-    //backstretch
-    $.backstretch('img/wood.png');
 
 
 });
