@@ -427,6 +427,12 @@ li {
     }
 }
 
+@media (min-width: 950px){
+    #food h3 {
+        margin-top: 0;
+    }
+}
+
 /* reviews styles */
 #reviews {
     background-color: #841f27;
