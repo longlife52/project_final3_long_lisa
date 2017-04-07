@@ -53,6 +53,9 @@ $(document).ready(function () {
     //owlcarousel
     $('.owl-carousel').owlCarousel();
 
+    //backstretch
+    $.backstretch('img/wood.png');
+
 
 });
 
