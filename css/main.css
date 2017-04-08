@@ -387,7 +387,7 @@ h3 {
 }
 
 /* Food Section Style */
-#food img {
+.foodpix img {
     height: auto;
     width: 100%;
 }
@@ -508,4 +508,9 @@ h3 {
     #fat-footer {
         background-color: rgba(86, 86, 86, 0.8);
     }
+}
+
+/*  menu.html tour styles */
+#tour {
+    background-color: rgba(255, 255, 255, 0.8);
 }
