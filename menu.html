@@ -26,7 +26,7 @@
     <!--div "wrapper" needed to contain all html for jquery plugin mmenu. do not add any css values to change its size or position. -->
     <div id="wrapper">
         <nav id="menu">
-        <h2 class="hide">Navigation</h2>
+            <h2 class="hide">Navigation</h2>
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -37,33 +37,30 @@
             </ul>
         </nav>
 
-            <div class="fixed">
-                <button id="menu-button" class="hamburger hamburger--collapse" type="button">
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </span>
-                </button>
-            </div>
+        <header class="container">
+                <div id="hamburger" class="fixed group container">
+                    <button id="menu-button" class="hamburger hamburger--collapse" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
 
-        <header>
-            <div id="topheader">
-                <h1>Gusteau's</h1>
-            </div>
-            <div id="logo">
-                <img src="img/glogo.png" alt="Gustea's logo" title="Gustea's logo"/>
-            </div>
+                <div id="topheader" class="group container">
+                    <h1 class="fixed container">Gusteau's</h1>
+                </div>
         </header>
 
         <main>
             <!-- this is a demo for strip for restaurant video -->
-            <a href="http://www.youtube.com/watch?v=5XD2kNopsUs"
+            <a href="https://vimeo.com/8825184"
             class="strip"
             data-strip-options="
             width: 853,
             height: 480,
             youtube: { autoplay: 0 }">Youtube - Dimensions and options</a>
 
-            <section id="reviews">
+            <section id="reviews" class="container">
                 <h3>Read Our Reviews</h3>
                 <div id="image-carousel" class="owl-carousel owl-theme group container">
                     <div>
@@ -115,13 +112,16 @@
             </div>
         </footer>
     </div>
+
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-    <script src="js/strip.pkgd.min.js"></script>
+    <script src="js/jquery.backstretch.js"></script>
     <script src="js/jquery.mmenu.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/strip.pkgd.min.js"></script>
     <script src="js/jquery.lazyload.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
     <script src="js/main.js"></script>
+
 </body>
 </html>
