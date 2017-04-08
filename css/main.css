@@ -514,3 +514,11 @@ h3 {
 #tour {
     background-color: rgba(255, 255, 255, 0.8);
 }
+
+#coupon h3 {
+    color: #fafafa;
+}
+
+#coupon h3:hover {
+    color: #c09f80;
+}
