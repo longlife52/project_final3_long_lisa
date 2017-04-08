@@ -325,13 +325,14 @@ h3 {
     text-align: center;
 }
 
-#action-buttons ul {
+#action-buttons ul,
+#menunav ul {
     padding-left: 0;
     list-style-type: none;
 }
 
-#action-buttons ul
-li {
+#action-buttons ul li,
+#menunav ul li {
     display: block;
     border: none;
     background-color: #841f27;
@@ -343,18 +344,22 @@ li {
     width: 8em;
 }
 
-#action-buttons a {
+#action-buttons a,
+#menunav a {
     text-decoration: none;
     color: #d7cec7;
     font-family: 'proxima-nova-condensed', sans-serif;
 }
 
 #action-buttons ul li a:hover,
-#action-buttons ul li a:active {
+#action-buttons ul li a:active,
+#menunav ul li a:hover,
+#menunav ul li a:active {
     color: #841f27;
 }
 
-#action-buttons li:hover {
+#action-buttons li:hover,
+#menunav li:hover {
     box-shadow: 0 0.75em 1em 0 rgba(0, 0, 0, 0.24), 0 1em 3.125em 0 rgba(0, 0, 0, 0.19);
     background-color: #d7cec7;
     color: #841f27;
