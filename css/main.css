@@ -517,6 +517,12 @@ h3 {
     color: #565656;
 }
 
+@media (min-width: 450px) {
+    #menu-title {
+        text-align: left;
+    }
+}
+
 #tour {
     background-color: rgba(255, 255, 255, 0.8);
 }
