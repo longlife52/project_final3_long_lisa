@@ -511,6 +511,12 @@ h3 {
 }
 
 /*  menu.html styles */
+#title h4 {
+    font-size: 8em;
+    margin: 0;
+    color: #565656;
+}
+
 #tour {
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -526,4 +532,5 @@ h3 {
 #menu-list h4 {
     font-size: 7em;
     margin: 0;
+    color: #c09f89;
 }
