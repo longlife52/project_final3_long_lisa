@@ -554,6 +554,10 @@ h3 {
     padding-left: 4.5em;
 }
 
+.item-wrapper {
+    margin-top: 3em;
+}
+
 .space {
     padding-bottom: 3em;
 }
