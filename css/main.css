@@ -630,6 +630,19 @@ h3 {
     #tour h3 {
         padding-top: 1.5em;
     }
+
+    .item {
+        float: left;
+        width: calc(100% / 3);
+    }
+
+    .item-three {
+        float: right;
+    }
+
+    #item-wrapper {
+        margin: 0;
+    }
 }
 
 @media (min-width: 900px) {
