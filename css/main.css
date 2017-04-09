@@ -521,6 +521,16 @@ h3 {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+#tour h3 {
+    padding-top: 1em;
+    margin-bottom: 0;
+}
+
+#tour p {
+    padding: 0 1em 2em 1em;
+    font-size: 1.5em;
+}
+
 #coupon h3 {
     color: #fafafa;
 }
@@ -548,6 +558,29 @@ h3 {
         font-size: 0.625em;
         display: inline-block;
         margin: 0.5em 2em 0 0;
+    }
+}
+
+@media (min-width: 600px) {
+    .box-three {
+        float: left;
+        width: 50%;
+        padding-right: 0.08em;
+    }
+
+    .box-four {
+        float: right;
+        width: 50%;
+        padding-left: 0.08em;
+    }
+
+    #tour h3 {
+        margin: 0;
+        padding-top: 0.25;
+    }
+
+    #tour p {
+        margin-top: 0;
     }
 }
 
