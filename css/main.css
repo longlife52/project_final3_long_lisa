@@ -545,6 +545,19 @@ h3 {
     color: #c09f89;
 }
 
+#menu-list h5 {
+    margin-bottom: 0;
+    padding-left: 3em;
+}
+
+#menu-list p {
+    padding-left: 4.5em;
+}
+
+.space {
+    padding-bottom: 3em;
+}
+
 @media (min-width: 450px) {
     #menu-title {
         text-align: left;
