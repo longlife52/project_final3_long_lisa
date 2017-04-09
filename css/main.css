@@ -486,7 +486,7 @@ h3 {
 #social img {
     display: block;
     margin: auto;
-    padding: 1em 0 3em 0;
+    padding: 1em 0 0 0;
 }
 
 #map iframe {
@@ -495,7 +495,7 @@ h3 {
 
 #copyright p {
     font-size: 0.5em;
-    padding: 3em 0 2em 0;
+    padding: 10em 0 2em 0;
 }
 
 @media (min-width: 450px) {
