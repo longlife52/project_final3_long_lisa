@@ -1,7 +1,7 @@
 # Project, Final 3, Lisa Long
 
 ## Links
-[Lisa's Project on Github.]()
+[Lisa's Project on Github.](https://github.com/longlife52/project_final3_long_lisa)
 [Here's the link to my Resume on my web host.]()
 [Here's the project on W3C's Validator.]()
 [Here's the project on the HTML5 Outliner.]()
