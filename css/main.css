@@ -643,6 +643,10 @@ h3 {
     #item-wrapper {
         margin: 0;
     }
+
+    #menu-list h4 {
+        font-size: 8em;
+    }
 }
 
 @media (min-width: 900px) {
