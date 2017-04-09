@@ -21,6 +21,8 @@ Took me a while to get the jQuery plugin  [Backstretch](http://www.jquery-backst
 
 Hooray! I used Bower for the first time to download + install a jQuery plugin called [Lazy Load](http://www.appelsiini.net/projects/lazyload) which was super easy to get up and running. Note: On img tag must change src to data-original in html.
 
+Here's a nice reminder [article on how to make images circles.](http://sixrevisions.com/css/circular-images-css/) Easiest if the image is a square to start.  If for some reason, I start with a rectangle, this article explains how to make it a circle.
+
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
 
