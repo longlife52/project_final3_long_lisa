@@ -559,9 +559,16 @@ h3 {
         display: inline-block;
         margin: 0.5em 2em 0 0;
     }
+
+    #menunav ul {
+        margin-top: 3em;
+    }
 }
 
 @media (min-width: 600px) {
+    #menunav ul {
+        margin-bottom: 3em;
+    }
     .box-three {
         float: left;
         width: 50%;
