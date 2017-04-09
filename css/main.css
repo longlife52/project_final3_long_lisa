@@ -436,6 +436,12 @@ h3 {
     #food h3 {
         margin-top: 0;
     }
+
+    .header-container {
+        position: fixed;
+        width: 950px;
+        z-index: 1000;
+    }
 }
 
 /* reviews styles */
