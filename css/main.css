@@ -582,10 +582,28 @@ h3 {
     #tour p {
         margin-top: 0;
     }
+
+    #tour img {
+        padding-top: 2em;
+    }
 }
 
 @media (min-width: 750px) {
     #menunav ul li {
         font-size: 1em;
+    }
+
+    #tour img {
+        padding-top: 0.5em;
+    }
+
+    #tour h3 {
+        padding-top: 1.5em;
+    }
+}
+
+@media (min-width: 900px) {
+    #tour h3 {
+        padding-top: 2.5em;
     }
 }
