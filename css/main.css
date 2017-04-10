@@ -560,6 +560,7 @@ h3 {
 
 .space {
     padding-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 @media (min-width: 450px) {
