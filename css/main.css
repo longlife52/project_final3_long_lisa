@@ -101,19 +101,13 @@ h5 {
     color: #fafafa;
     background: #c09f89;
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding: 0.325em 0 0.35em 0;
 }
 
 #hamburger {
-    float: left;
-    width: calc(100% / 3);
+    position: absolute;
     background: #c09f89;
-}
-
-#topheader {
-    float: right;
-    width: calc((100% / 3) * 2);
 }
 
 /*
