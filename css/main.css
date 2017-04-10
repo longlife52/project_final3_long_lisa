@@ -558,6 +558,10 @@ h3 {
     margin-top: 3em;
 }
 
+.circular {
+    border-radius: 50%;
+}
+
 .space {
     padding-bottom: 3em;
     margin-bottom: 3em;
