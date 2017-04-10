@@ -545,6 +545,16 @@ h3 {
     color: #c09f89;
 }
 
+#menu-list img {
+    height: auto;
+    width: 75%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+}
+
 #menu-list h5 {
     margin-bottom: 0;
     padding-left: 3em;
