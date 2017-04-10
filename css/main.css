@@ -584,6 +584,8 @@ h3 {
 
     #menunav {
         text-align: center;
+        background: none;
+
     }
 
     #menunav ul li {
@@ -593,7 +595,9 @@ h3 {
     }
 
     #menunav ul {
-        margin-top: 3em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        margin: 0;
     }
 
     #menu-list h4 {
@@ -611,9 +615,13 @@ h3 {
 }
 
 @media (min-width: 600px) {
+
+    /*
     #menunav ul {
         margin-bottom: 3em;
     }
+    */
+
     .box-three {
         float: left;
         width: 50%;
@@ -678,5 +686,12 @@ h3 {
 @media (min-width: 900px) {
     #tour h3 {
         padding-top: 2.5em;
+    }
+}
+
+@media (min-width: 950px) {
+    #menunav {
+        border-left: white solid 1em;
+        border-right: white solid 1em;
     }
 }
