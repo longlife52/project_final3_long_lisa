@@ -96,6 +96,12 @@ h5 {
 }
 
 /* Header and Logo */
+.header-container {
+    position: fixed;
+    width: 950px;
+    z-index: 1000;
+}
+
 #topheader h1 {
     font-size: 2em;
     color: #fafafa;
