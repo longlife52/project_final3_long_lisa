@@ -668,6 +668,12 @@ h3 {
         padding-top: 1.5em;
     }
 
+    #appetizers,
+    #entrees,
+    #dessert {
+        border-bottom: 0.25em #c09f80 solid;
+    }
+
     .item {
         float: left;
         width: calc(100% / 3);
