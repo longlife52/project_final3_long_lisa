@@ -539,15 +539,43 @@ h3 {
     background: none;
 }
 
+.ghost-button {
+    display: inline-block;
+    width: 12.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: #fafafa;
+    border: 0.1875em solid #fafafa;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #fafafa;
+    color: #000000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#clickCoupon {
+    display: block;
+    text-align: center;
+    padding-bottom: 7em;
+}
+
 #coupon h3 {
     color: #fafafa;
     margin: 0;
-    padding: 4em 0 4em 0;
+    padding: 4em 0 0 0;
 }
 
+/*
 #coupon h3:hover {
     color: #c09f80;
 }
+*/
 
 #menu-list h4 {
     font-size: 7em;

@@ -26,6 +26,10 @@ Hooray! I used Bower for the first time to download + install a jQuery plugin ca
 
 Here's a nice reminder [article on how to make images circles.](http://sixrevisions.com/css/circular-images-css/) Easiest if the image is a square to start.  If for some reason, I start with a rectangle, this article explains how to make it a circle.
 
+This is an easy to follow resource from W3.org on [centering things.](https://www.w3.org/Style/Examples/007/center.en.html)
+
+Here's a wonderful [ghost-button tutorial](http://sixrevisions.com/css/ghost-buttons/) like the one the menu.html page.
+
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
 
