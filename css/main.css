@@ -517,6 +517,10 @@ h3 {
     color: #565656;
 }
 
+#menunav {
+    background: none;
+}
+
 #tour {
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -584,8 +588,6 @@ h3 {
 
     #menunav {
         text-align: center;
-        background: none;
-
     }
 
     #menunav ul li {
@@ -691,7 +693,7 @@ h3 {
 
 @media (min-width: 950px) {
     #menunav {
-        border-left: white solid 1em;
-        border-right: white solid 1em;
+        border-left: #fafafa solid 1em;
+        border-right: #fafafa solid 1em;
     }
 }
