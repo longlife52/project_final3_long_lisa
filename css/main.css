@@ -535,8 +535,14 @@ h3 {
     font-size: 1.5em;
 }
 
+#coupon {
+    background: none;
+}
+
 #coupon h3 {
     color: #fafafa;
+    margin: 0;
+    padding: 4em 0 4em 0;
 }
 
 #coupon h3:hover {
@@ -613,7 +619,6 @@ h3 {
     #wine {
         background-color: rgba(255, 255, 255, 0.9);
     }
-
 }
 
 @media (min-width: 600px) {
@@ -692,6 +697,7 @@ h3 {
 }
 
 @media (min-width: 950px) {
+    #coupon,
     #menunav {
         border-left: #fafafa solid 1em;
         border-right: #fafafa solid 1em;
