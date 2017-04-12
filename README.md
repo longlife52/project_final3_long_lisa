@@ -12,11 +12,7 @@
 ## Resources
 To create the map, I attempted to follow [this Google Maps APIs tutorial.](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) After several glitches, I then opted for an iframe version.
 
-I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/core/) to create the hamburger menu. This plug in functions on all pages and is in the top left header bar.
-
-[Info for animating hamburger icon in mmenu](http://mmenu.frebsite.nl/tutorials/animated-hamburger.html)
-
-[Animated hamburger options.](https://github.com/jonsuh/hamburgers)
+I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/core/) to create the hamburger menu. This plug in functions on all pages and is in the top left header bar. While the animation CSS does not function, here is the [info for animating hamburger icon in mmenu](http://mmenu.frebsite.nl/tutorials/animated-hamburger.html) As well, I chose to keep the[Animated hamburger options.](https://github.com/jonsuh/hamburgers) in my code. It does generate the X for open/close. I plan to tinker with it a bit more after the semester ends.
 
 This is the jQuery plugin [called Strip](http://www.stripjs.com/) for the video on the menu page. Fairly straightforward to install once I spotted in dev tools how to add the image file for the close buttons. In the error message, the path it was looking for was spelled out!  I just created the path it wanted. css>strip-skins>strip>close.svg.
 
