@@ -577,6 +577,15 @@ h3 {
     padding: 4em 0 0 0;
 }
 
+#couponImage img {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*
 #coupon h3:hover {
     color: #c09f80;
