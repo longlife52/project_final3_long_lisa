@@ -26,9 +26,10 @@ This is an easy to follow resource from W3.org on [centering things.](https://ww
 
 Here's a wonderful [ghost-button tutorial](http://sixrevisions.com/css/ghost-buttons/) like the one on the menu.html page.
 
-The custom JavaScript code appears on the menu.html page near the bottom. On page load, an ad box appears. The user may click it off. I referred to [this tutorial](https://www.w3schools.com/howto/howto_css_modals.asp). As well, I also followed a tutorial in a book called Javascript by Tom Negrino and Dori Smith.
+The custom JavaScript code appears on the menu.html page near the bottom in the red box. On page load, an ad box appears that reads "Mother's Day! Reserve Your Table." The user may click the "x" to remove the box. While I am not a huge fan of ad boxes, I did want to explore how they worked. I referred to [this tutorial](https://www.w3schools.com/howto/howto_css_modals.asp). As well, I also followed a tutorial in a book called Javascript by Tom Negrino and Dori Smith.
 
-For the custom jQuery code, I [referred to this article](https://www.w3schools.com/jquery/jquery_dom_add.asp) on using after(). As well, for a quick refresher, I reviewed [this article](https://www.w3schools.com/jquery/jquery_events.asp) on jQuery events.
+The custom jQuery code appears on the menu.html page. Clicking the ghost-button that reads "Get Yours Now" creates a slideDown effect that reveals an image designed as a appetizer coupon. For the custom jQuery code, I initially [referred to this article](https://www.w3schools.com/jquery/jquery_dom_add.asp) on using after() and spent a lot of time tinkering with how it might work. I then decided on using [hide/show](https://www.w3schools.com/jquery/jquery_hide_show.asp) and [slideDown](https://www.w3schools.com/jquery/jquery_slide.asp). As well, for a quick refresher, I reviewed [this article](https://www.w3schools.com/jquery/jquery_events.asp) on jQuery events. Also, I researched ideas in the book JavaScript: A Beginner's Guide by John Pollock.
+
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
