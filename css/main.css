@@ -628,11 +628,8 @@ h3 {
     display: none;
     width: 6.25em;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 0.625em;
-    margin: 0.625em;
-    /*
-    border: 0.25em solid #c09f80;
-    */
+    padding: 1em;
+    margin: 1em;
 }
 
 #closeBox {
