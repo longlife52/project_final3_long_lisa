@@ -61,8 +61,10 @@ $(document).ready(function () {
     //owlcarousel
     $('.owl-carousel').owlCarousel();
 
-    /* custom jQuery code that when click ghost-button on menu.html page,
-    shows the coupon via a slide down effect and automatically hides a coupon */
+/* custom jQuery code on menu.html page
+that when click ghost-button on menu.html page,
+shows the coupon via a slide down effect.
+*/
     var showCoupon = '#couponImage';
 
     $(showCoupon).hide();
@@ -71,32 +73,12 @@ $(document).ready(function () {
         $(showCoupon).slideDown(3000);
     });
 
-/*
-    var showCoupon = '#couponImage';
-
-    $(showCoupon).hide();
-    $('#clickCoupon').click(function (event) {
-        event.preventDefault();
-        $(showCoupon).slideDown(3000, function () {
-            $(showCoupon).fadeOut(100000);
-        });
-    });
-*/
-/*
-    var showCoupon = '#couponImage';
-
-    $('showCoupon').hide();
-    $('#clickCoupon').click(function (event) {
-        event.preventDefault();
-        $('showCoupon').slideDown(3000, function () {
-            $('showCoupon').fadeOut(5000000);
-        });
-    });
-*/
-
 });
 
-//javascript custom code
+/* custom javascript code on menu.html page
+appears on red colored "Read our Reviews" Section
+appears when when page loads; removed when user clicks x
+*/
 window.onload = runAd;
 
 function runAd() {
