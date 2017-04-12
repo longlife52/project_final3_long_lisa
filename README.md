@@ -28,7 +28,11 @@ Here's a nice reminder [article on how to make images circles.](http://sixrevisi
 
 This is an easy to follow resource from W3.org on [centering things.](https://www.w3.org/Style/Examples/007/center.en.html)
 
-Here's a wonderful [ghost-button tutorial](http://sixrevisions.com/css/ghost-buttons/) like the one the menu.html page.
+Here's a wonderful [ghost-button tutorial](http://sixrevisions.com/css/ghost-buttons/) like the one on the menu.html page.
+
+The custom JavaScript code appears on the menu.html page near the bottom. On page load, an ad box appears. The user may click it off. I referred to [this tutorial](https://www.w3schools.com/howto/howto_css_modals.asp). As well, I also followed a tutorial in a book called Javascript by Tom Negrino and Dori Smith.
+
+For the custom jQuery code, I [referred to this article](https://www.w3schools.com/jquery/jquery_dom_add.asp) on using after(). As well, for a quick refresher, I reviewed [this article](https://www.w3schools.com/jquery/jquery_events.asp) on jQuery events.
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
