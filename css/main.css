@@ -20,15 +20,6 @@ html {
 * html .group
 
 /* Body - in order to change body color must have body + #wrapper set to same color; do not add any css values to #wrapper that change its size or position or mmneu will not work */
-/*
-body {
-    background: #fafafa;
-}
-
-#wrapper {
-    background: #fafafa;
-}
-*/
 
 @media (min-width: 450px) {
     #wrapper {
@@ -40,18 +31,6 @@ body {
     background: #fafafa;
     margin: auto;
     max-width: 950px;
-}
-
-.fixed {
-
-    /*
-    background: #c09f80;
-    */
-    position: fixed;
-
-    /*
-    width: 100%;
-    */
 }
 
 /* Headings Styles */
@@ -116,94 +95,6 @@ h5 {
     background: #c09f89;
 }
 
-/*
-#topheader {
-    margin: auto;
-    width: 100%;
-    position: fixed;
-}
-
-#topheader h1 {
-    text-align: center;
-    padding-left: 0;
-    margin: 0.375em;
-}
-*/
-
-/*
-#topheader {
-    background-color: #565656;
-    padding: 0.5em;
-    margin-bottom: 1em;
-}
-*/
-
-/*
-#logo {
-    text-align: center;
-}
-
-#logo img {
-    padding-top: 0.5em;
-}
-
-@media (min-width: 450px) {
-    #logo {
-        float: left;
-        width: calc(100% / 3);
-        position: absolute;
-        margin-top: -5em;
-    }
-
-    #topheader h1 {
-        text-align: left;
-        padding-left: 5em;
-        margin-bottom: 0;
-    }
-}
-*/
-
-/*
-@media (min-width: 750px) {
-    .container {
-        margin: auto;
-    }
-
-    #topheader {
-        background: rgba(86, 86, 86, 0.5);
-    }
-
-    #topheader h1 {
-        text-align: center;
-        padding-left: 0;
-    }
-
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
-    #intro {
-        padding-top: 4em;
-    }
-
-    #logo {
-        float: none;
-        width: auto;
-        position: relative;
-        margin: auto;
-        margin-top: 1em;
-        max-width: 1000px;
-    }
-
-    #logo img {
-        position: absolute;
-        left: 5em;
-        top: -5em;
-    }
-}
-*/
-
 /* Intro */
 #logo {
     text-align: center;
@@ -230,11 +121,6 @@ h3 {
 
 @media (min-width: 450px) {
 
-    /*
-    #intro h2 {
-        padding-top: 1em;
-    }
-    */
     #logo {
         float: left;
         width: 50%;
@@ -260,23 +146,6 @@ h3 {
 }
 
 /* button area styles */
-
-/*
-.button-pix {
-    background-image: url(../img/wood.png);
-}
-
-.greybox {
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.button-pix p {
-    padding: 2em 0 2em 1em;
-    color: #fafafa;
-    font-size: 2em;
-}
-*/
-
 #button-area img {
     height: auto;
     width: 100%;
@@ -306,12 +175,6 @@ h3 {
     #action-buttons {
         float: left;
         width: 50%;
-
-        /*
-        margin-bottom: -3em;
-        background-color: rgba(192, 159, 128, 0.2);
-        margin-top: -0.1em;
-*/
     }
 
     #food h3 {
@@ -586,12 +449,6 @@ h3 {
     margin-right: auto;
 }
 
-/*
-#coupon h3:hover {
-    color: #c09f80;
-}
-*/
-
 #menu-list h4 {
     font-size: 7em;
     margin: 0;
@@ -685,13 +542,6 @@ h3 {
 }
 
 @media (min-width: 600px) {
-
-    /*
-    #menunav ul {
-        margin-bottom: 3em;
-    }
-    */
-
     .box-three {
         float: left;
         width: 50%;
