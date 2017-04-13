@@ -73,6 +73,28 @@ shows the coupon via a slide down effect.
         $(showCoupon).slideDown(3000);
     });
 
+/* custom jQuery code on index.html page
+that when hovered/mouseover - image changes
+on mouseout - image returns to original.
+Created one for each image.
+*/
+    $('#baked').mouseover(function () {
+        $(this).attr('src', 'img/bakedhover.png');
+    });
+
+    $('#baked').mouseout(function () {
+        $(this).attr('src', 'img/baked.png');
+    });
+
+    $('#skillet').mouseover(function () {
+        $(this).attr('src', 'img/skillethover.png');
+    });
+
+    $('#skillet').mouseout(function () {
+        $(this).attr('src', 'img/skillet.png');
+    });
+
+
 });
 
 /* custom javascript code on menu.html page

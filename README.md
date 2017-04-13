@@ -30,6 +30,8 @@ The custom JavaScript code appears on the menu.html page near the bottom in the 
 
 The custom jQuery code appears on the menu.html page. Clicking the ghost-button that reads "Get Yours Now" creates a slideDown effect that reveals an image designed as a appetizer coupon. For the custom jQuery code, I initially [referred to this article](https://www.w3schools.com/jquery/jquery_dom_add.asp) on using after() and spent a lot of time tinkering with how it might work. I then decided on using [hide/show](https://www.w3schools.com/jquery/jquery_hide_show.asp) and [slideDown](https://www.w3schools.com/jquery/jquery_slide.asp). As well, for a quick refresher, I reviewed [this article](https://www.w3schools.com/jquery/jquery_events.asp) on jQuery events. Also, I researched ideas in the book JavaScript: A Beginner's Guide by John Pollock.
 
+After several attempts (as well as hours) at CSS hover effects that were a nightmare for me to figure out with floats and responsive design, I opted to code a jQuery mouseover + mouseout effect using an image. Whew! Super easy - especially compared to trying to figure out the CSS hover effect for the other variations. This jQuery "hover effect" appears on the index.html page on the 2 images just above "Read Our Reviews." I referred to lecture notes as well as [this Stack Overflow](http://stackoverflow.com/questions/10709016/change-image-onmouseover) thread on the topic.
+
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
