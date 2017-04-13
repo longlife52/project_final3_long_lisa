@@ -66,17 +66,19 @@
                 </div>
             </section>
 
-            <section class="container">
-                <h2>Please Let Us Know</h2>
+            <section class="container group">
+                <h4>Please Let Us Know</h4>
                 <form method="post" name="order" id="order" action="mailto:garrisonridge@gmail.com">
+                <div class="box-one group">
                     <fieldset>
                         <legend>Contact</legend>
                         <label for="name">Name</label>
-                        <input type="text" value name="name" id="name">
+                        <input type="text" name="name" id="name">
 
                         <label for="email">Email</label>
-                        <input type="text" value name="email" id="email">
+                        <input type="text" name="email" id="email">
                     </fieldset>
+                </div>
 <!--
                     <fieldset>
                         <legend>Appetizers</legend>
@@ -99,26 +101,27 @@
                             <label for= "quantity">Select Quantity:</label>
                             <input type= "number" name= "quantity" id= "quantity" max= "10" min= "1" value= "1"/>
                     </fieldset>
--->
-                    <fieldset>
-                        <legend>Entrees</legend>
-                        <!--
-                            <select name="entrees">
-                                <option value="courgettes">Courgettes</option>
-                                <option value="ratatouille">Ratatouille</option>
-                                <option value="crepe">Crepe Stack</option>
-                            </select>
-                        -->
-                            <label for= "entree">Select an Entree </label>
-                            <input type=  "text" name= "entree"  list= "entree" placeholder= "Click to Select" />
-                            <datalist id= "entree">
-                                <option value= "Courgettes" />
-                                <option value= "Ratatouille" />
-                                <option value= "Crepe Stack" />
-                            </datalist>
-                            <label for= "quantity">Select Quantity:</label>
-                            <input type= "number" name="quantity" id="quantity" max= "10" min= "1" value= "1"/>
-                    </fieldset>
+-->                 <div class="box-two group">
+                        <fieldset>
+                            <legend>Entrees</legend>
+                            <!--
+                                <select name="entrees">
+                                    <option value="courgettes">Courgettes</option>
+                                    <option value="ratatouille">Ratatouille</option>
+                                    <option value="crepe">Crepe Stack</option>
+                                </select>
+                            -->
+                                <label for= "entree">Select an Entree </label>
+                                <input type=  "text" name= "entree"  list= "entree" placeholder= "Click to Select" />
+                                <datalist id= "entree">
+                                    <option value= "Courgettes" />
+                                    <option value= "Ratatouille" />
+                                    <option value= "Crepe Stack" />
+                                </datalist>
+                                <label for= "quantity">Select Quantity:</label>
+                                <input type= "number" name="quantity" id="quantity" max= "10" min= "1" value= "1"/>
+                        </fieldset>
+                    </div>
                 </form>
 
             </section>

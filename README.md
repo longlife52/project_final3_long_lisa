@@ -34,6 +34,8 @@ After several attempts (as well as hours) at CSS hover effects that were a night
 
 Here is [a tutorial on setting value of a form element in JavaScript](http://www.javascript-coder.com/javascript-form/javascript-form-value.phtml).
 
+I looked at [this article](http://www.hongkiat.com/blog/creating-responsive-form-with-css3-html5/) about responsive forms.
+
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
