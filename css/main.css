@@ -622,3 +622,8 @@ h3 {
         border-right: #fafafa solid 1em;
     }
 }
+
+/* form styles */
+label {
+    display: block;
+}
