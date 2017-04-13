@@ -632,10 +632,14 @@ input[type="submit"] {
     background-color: #841f27;
     display: block;
     padding: 0.625em;
-    margin-bottom: 1.25em;
     width: 15em;
     font-family: 'proxima-nova-condensed', sans-serif;
     font-size: 1em;
     color: #fafafa;
     outline: none;
+    margin: 0 auto;
+}
+
+.buttonholder {
+    padding: 0 0 5em 0;
 }
