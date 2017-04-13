@@ -98,7 +98,7 @@ h5 {
 /* Header and Logo */
 .header-container {
     position: fixed;
-    width: 950px;
+    width: 100%;
     z-index: 1000;
 }
 
