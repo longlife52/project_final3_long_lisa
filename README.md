@@ -1,9 +1,9 @@
-# Project, Final 3, Lisa Long
+# Project - Final 3 - Lisa Long
 
 ## Links
 [Lisa's Project on Github.](https://github.com/longlife52/project_final3_long_lisa)
 
-[Here's the link to my Resume on my web host.]()
+[Here's the link to my Final 3 on my web host.]()
 
 [Here's the project on W3C's Validator.]()
 
@@ -33,6 +33,8 @@ The custom jQuery code appears on the menu.html page. Clicking the ghost-button 
 After several attempts (as well as hours) at CSS hover effects that were a nightmare for me to figure out with floats and responsive design, I opted to code a jQuery mouseover + mouseout effect using an image. Whew! Super easy - especially compared to trying to figure out the CSS hover effect for the other variations. This jQuery "hover effect" appears on the index.html page on the 2 images just above "Read Our Reviews." I referred to lecture notes as well as [this Stack Overflow](http://stackoverflow.com/questions/10709016/change-image-onmouseover) thread on the topic.
 
 Here is [a tutorial on setting value of a form element in JavaScript](http://www.javascript-coder.com/javascript-form/javascript-form-value.phtml).
+
+Here's another [great resource](http://www.javascript-coder.com/javascript-form/javascript-calculator-script.phtml) that should help with doing real-time calculations in a form.
 
 I looked at [this article](http://www.hongkiat.com/blog/creating-responsive-form-with-css3-html5/) about responsive forms.
 
