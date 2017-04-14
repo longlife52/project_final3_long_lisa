@@ -624,6 +624,18 @@ h3 {
 }
 
 /* form styles */
+#takeout {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#order-title {
+    color: #c09f80;
+    font-size: 6em;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
 label {
     display: block;
 }
@@ -642,4 +654,9 @@ input[type="submit"] {
 
 .buttonholder {
     padding: 0 0 5em 0;
+}
+
+fieldset {
+    padding: 1em;
+    margin: 0 1em 2em 1em;
 }
