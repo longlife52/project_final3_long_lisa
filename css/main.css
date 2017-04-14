@@ -638,6 +638,11 @@ h3 {
 
 label {
     display: block;
+    font-family: 'proxima-nova-condensed', sans-serif;
+    padding: 1em 0 0 0;
+    color: #565656;
+    font-size: 1.5em;
+
 }
 
 input[type="submit"] {
@@ -659,4 +664,12 @@ input[type="submit"] {
 fieldset {
     padding: 1em;
     margin: 0 1em 2em 1em;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'proxima-nova-condensed', sans-serif;
+    font-size: 2em;
+    color: #565656;
 }
