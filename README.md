@@ -41,3 +41,10 @@ I looked at [this article](http://www.hongkiat.com/blog/creating-responsive-form
 I have reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
+I must draw a line in the sand and call this project complete. While I would have liked another week to explore the form, I must prepare for Easter as well as complete my other work.
+
+I had fun tinkering with this assignment.
+
+As well, while often overwhelmed with the time commitment, I remain astonished at the amount I learned this semester. Thank you for taking time to answer my questions.
+
+Enjoy your summer!
