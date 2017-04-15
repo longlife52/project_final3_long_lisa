@@ -18,13 +18,13 @@
 [Here's the order.html page on the HTML5 Outliner.](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fgarrisonridge.com%2Fgarrisonridge%2Fproject_final3_long_lisa%2Forder.html)
 
 ## Resources
-To create the map, I attempted to follow [this Google Maps APIs tutorial.](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) After several glitches, I then opted for an iframe version.
+To create the map, I attempted to follow [this Google Maps APIs tutorial.](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) After several glitches, I then opted for an iframe version. The map appears in the fat footer.
 
 I used a jQuery plugin [called mmenu](http://mmenu.frebsite.nl/documentation/core/) to create the hamburger menu. This plug in functions on all pages and is in the top left header bar. While the animation CSS does not function, here is the [info for animating hamburger icon in mmenu](http://mmenu.frebsite.nl/tutorials/animated-hamburger.html).  As well, I chose to keep the[Animated hamburger options](https://github.com/jonsuh/hamburgers) in my code. It does generate the X for open/close. I plan to tinker with it a bit more after the semester ends.
 
-This is the jQuery plugin [called Strip](http://www.stripjs.com/) for the video on the menu page. Fairly straightforward to install once I spotted in dev tools how to add the image file for the close buttons. In the error message, the path it was looking for was spelled out!  I just created the path it wanted. css>strip-skins>strip>close.svg.
+This is the jQuery plugin [called Strip](http://www.stripjs.com/) for the video on the menu page called "in the kitchen". Fairly straightforward to install once I spotted in dev tools how to add the image file for the close buttons. In the error message, the path it was looking for was spelled out!  I just created the path it wanted. css>strip-skins>strip>close.svg.
 
-Took me a while to get the jQuery plugin  [Backstretch](http://www.jquery-backstretch.com/) to work. My issue was with a background/background-color on the body. Once I removed it in CSS, I was golden. The plugin is used on all pages as the background.
+Took me a while to get the jQuery plugin  [Backstretch](http://www.jquery-backstretch.com/) to work. My issue was with a background/background-color on the body. Once I removed it in CSS, I was golden. The plugin is used on all pages as the background image of the wood.
 
 Hooray! I used Bower for the first time to download + install a jQuery plugin called [Lazy Load](http://www.appelsiini.net/projects/lazyload) which was super easy to get up and running. Note: On img tag must change src to data-original in html. Lazy load applies to all images in the project.
 
@@ -42,10 +42,9 @@ After several attempts (as well as hours) at CSS hover effects that were a night
 
 Here is [a tutorial on setting value of a form element in JavaScript](http://www.javascript-coder.com/javascript-form/javascript-form-value.phtml).
 
-Here's another [great resource](http://www.javascript-coder.com/javascript-form/javascript-calculator-script.phtml) that should help with doing real-time calculations in a form.
+Here's another [great resource](http://www.javascript-coder.com/javascript-form/javascript-calculator-script.phtml) that should help with doing real-time calculations in a form. While I did not get that far in the extra credit, I value this resource for future reference.
 
 I looked at [this article](http://www.hongkiat.com/blog/creating-responsive-form-with-css3-html5/) about responsive forms.
-
 
 ## Deductions
 I have reviewed the list of deductions for this project and in the syllabus.
@@ -55,6 +54,6 @@ I must draw a line in the sand and call this project complete. While I would hav
 
 I had fun tinkering with this assignment.
 
-As well, while often overwhelmed with the time commitment, I remain astonished at the amount I learned this semester. Thank you for taking time to answer my questions.
+As well, while often overwhelmed with the time commitment, I remain astonished at the amount I learned this semester. Thank you for taking time to answer all of my questions with detailed responses.
 
 Enjoy your summer!
