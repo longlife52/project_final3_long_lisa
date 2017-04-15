@@ -3,7 +3,7 @@
 ## Links
 [Lisa's Project on Github.](https://github.com/longlife52/project_final3_long_lisa)
 
-[Here's the link to my Final 3 on my web host.](file:///Users/lisalong/Desktop/UF_Course_Code/project_final3_long_lisa/index.html)
+[Here's the link to my Final 3 on my web host.](http://garrisonridge.com/garrisonridge/project_final3_long_lisa/index.html)
 
 [Here's the index.html on W3C's Validator.](https://validator.w3.org/nu/?doc=http%3A%2F%2Fgarrisonridge.com%2Fgarrisonridge%2Fproject_final3_long_lisa%2Findex.html) Please know that the errors thrown have to do with the jQuery plugin: src is replaced with data-original. Also, the iframe issue comes from google maps.
 
